@@ -67,7 +67,7 @@ void clear_pixel(int row, int col) {
  
 // ─── Drawing Primitives ──────────────────────────────────────────────────────
  
-// Midpoint circle algorithm
+// Midpoint circle algorithm      //Day 2
 void draw_circle(int cx, int cy, int r) {
     int x = 0, y = r;
     int d = 1 - r;
