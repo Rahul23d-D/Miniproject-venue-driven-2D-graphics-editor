@@ -143,7 +143,7 @@ int add_object(ObjectType t, int x, int y, int r, int extra) {
 }
  
 // ─── Menu Handlers ───────────────────────────────────────────────────────────
-void menu_add() {
+void menu_add() {  //day3
     printf("\nAdd Object:\n");
     printf("  1. Circle\n  2. Rectangle\n  3. Line\n  4. Triangle\n  0. Cancel\n");
     printf("Choice: ");
